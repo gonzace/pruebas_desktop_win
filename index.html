@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
   <title>Mi portfolio</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <h4>Gonzalo Caporella</h4>
-      <img src="face.png" alt="logo de facebook">
-      <img src="insta.png" alt="logo de instagram">
-      <img src="linkedin.png" alt="logo de linkedin">
-      <button type="button">Login</a>
-    </nav>
-  </header>
-<Section>
   <div>
-    <img src="net.png" alt="Foto de portada" width="100%">
+    <header>
+      <nav>
+        <span class="izquierda"><h4>Gonzalo Caporella</h4></span>
+        <span class="derecha"><img src="face.png" alt="logo de facebook">
+        <img src="insta.png" alt="logo de instagram">
+        <img src="linkedin.png" alt="logo de linkedin">
+        <button type="button">Login</a></span>
+      </nav>
+    </header>
   </div>
-  <div>
-    <img src="gonza.jpg" alt="Foto de perfil" width="10%">
+<Section>
+  <div class="portada">
+    <img src="./images/net.png" alt="Foto de portada" width="100%">
+  </div>
+  <div class="presentacion">
+    <img src="./images/gonza.jpg" alt="Foto de perfil" width="10%">
     <img src="edit.png" alt="logo de lapicito">
     <h2>Gonzalo Caporella</h2>
     <p>Estudiante de programación</p>
@@ -31,37 +34,42 @@
       <button type="button">Botón Más</a>
   </div>
 </Section>
-<Section>
+<Section class="content">
   <div>
     <h2>Acerca de</h2>
     <p>acá va toda la descripción...</p>
     <img src="edit.png" alt="logo de lapicito">
   </div>
 </Section>
-<Section>
+<Section class="content">
   <div>
     <h2>Experiencia</h2>
     <p>acá va toda la experiencia...</p>
     <img src="edit.png" alt="logo de lapicito">
   </div>
 </Section>
-<Section>
+<Section class="content">
   <div>
     <h2>Habilidades</h2>
     <p>acá va toda la descripción...</p>
     <img src="edit.png" alt="logo de lapicito">
   </div>
 </Section>
-<Section>
+<Section class="content">
   <div>
     <h2>Proyectos</h2>
-    <p>acá van todos los proyectos...</p>
-    <a href="">Proyecto Uno</a>
-    <p>descripción del Proyecto Uno</p>
-    <a href="">Proyecto Dos</a>
-    <p>descripción del Proyecto Dos</p>
-    <a href="">Proyecto Tres</a>
-    <p>descripción del Proyecto tres</p>
+    <article>
+      <h3><a href="">Proyecto Uno</a></h3>
+      <p>descripción del Proyecto Uno</p>
+    </article>
+    <article>
+      <h3><a href="">Proyecto Dos</a></h3>
+      <p>descripción del Proyecto Dos</p>
+    </article>
+    <article>
+      <h3><a href="">Proyecto Tres</a></h3>
+      <p>descripción del Proyecto tres</p>
+    </article>
   </div>
 </Section>
 <footer>
