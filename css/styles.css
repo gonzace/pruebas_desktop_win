@@ -11,32 +11,65 @@ body {
   }
 
 header {
-    padding: 10px;
+    margin: 0px;
 }
 
 body {
-  background-color: tan;
+  background-color: #7e8a4f;
 }
 
-.portada {
-    padding-top: 20px;
+p {
+    line-height: 1.8;
 }
 
-.izquierda {
+.card {
+    border-radius: 30px;
+    margin: 15px 0 0 20px;
+    padding: 30px;
+    border-color: dimgrey;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#portada {
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+#fotoperfil {
+    border-radius: 50%;
+}
+
+#aplogo {
     float: left;
-    margin-left: 10px;
+    margin: 0 0 0 20px;
+    padding: 0px;
+}
+
+button {
+    margin: 5px;  
+}
+
+/*.content {
+    margin: 15px 0 0 20px;
+}*/
+
+#presentacion {
+    margin: -150px 0 0 20px;
+    padding: 30px;
 }
 
 .derecha {
     float: right;
     margin-right: 10px;
+    padding: 0px;
+    vertical-align: auto;
 }
 
-.presentacion, .content {
-    margin: 15px;
-    margin-left: 20px;
+footer {
+    margin: 10px;
 }
 
-.presentacion {
-    margin-top: -120px;
+#pie {
+    text-align: center;
 }
