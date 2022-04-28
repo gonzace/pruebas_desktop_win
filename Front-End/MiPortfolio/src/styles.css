@@ -1,0 +1,115 @@
+/* You can add global styles to this file, and also import other style files */
+/* general styling */
+/** {
+    margin: 0rem;
+    border: 0rem;
+    padding: 0rem;
+    background-color: #064650;
+}*/
+
+/*html, 
+body {
+    height: 100%;
+  }
+*/
+
+header {
+    margin-top: 1rem;
+}
+
+body {
+    background-color: #064650 !important;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+.card {
+    border-radius: 1.5rem !important;
+    margin: 2rem 3rem 0rem 3rem;
+    padding: 2rem;
+    border-color: dimgrey;
+    border-style: solid;
+    border-width: 0.2rem !important;
+    background-color: #aca7aa !important;
+}
+
+#encabezado * {
+    display: inline;
+    vertical-align: baseline;
+    margin: 0.2rem;
+}
+
+#aplogo {
+    float: inline-start;
+    margin: 0 0 0 3rem;
+    padding: 0rem;
+    max-width: 8rem;
+    min-width: 6rem;
+}
+
+.redes {
+    display: inline !important;
+    float: right;
+    margin-right: 2rem;
+    padding: 0rem;
+}
+
+/*.redes * {
+    margin-right: 0.5rem;
+}*/
+
+#portada {
+    margin-top: 1rem !important;
+    border-radius: 0rem;
+    min-height: 15rem;
+    min-width: 70rem;
+}
+
+#fotoperfil {
+    border-radius: 50%;
+    min-height: 8rem;
+    min-width: 8rem;
+}
+
+#presentacion {
+    margin: -8rem 0rem 0rem 3rem;
+    padding: 2rem;
+    color: #f7f7f7;
+}
+
+#perfil {
+    align-self: flex-end !important;
+}
+
+button {
+    /*margin: 10px;*/
+    background-color: #f7f7f7;  
+}
+
+.botones {
+    float: inline-start;
+}
+
+.botones * {
+    margin: 0.2rem;
+}
+
+.lapicito {
+    float: right;
+    margin-right: 1rem;
+}
+
+/*.content {
+    margin: 15px 0 0 20px;
+}*/
+
+footer {
+    margin: 1rem;
+}
+
+#pie {
+    text-align: center;
+    color: #f7f7f7;
+}
