@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* general styling */
+
 /** {
     margin: 0rem;
     border: 0rem;
@@ -27,17 +28,20 @@ p {
 
 .card {
     border-radius: 1.5rem !important;
-    margin: 2rem 3rem 0rem 3rem;
-    padding: 2rem;
+    margin: 2rem 4rem 0rem 4rem;
+    padding: 1rem;
     border-color: dimgrey;
     border-style: solid;
     border-width: 0.2rem !important;
     background-color: #aca7aa !important;
 }
 
+.card .proyecto * {
+    display: block;
+}
+
 #encabezado * {
     display: inline;
-    vertical-align: baseline;
     margin: 0.2rem;
 }
 
@@ -56,13 +60,8 @@ p {
     padding: 0rem;
 }
 
-/*.redes * {
-    margin-right: 0.5rem;
-}*/
-
 #portada {
     margin-top: 1rem !important;
-    border-radius: 0rem;
     min-height: 15rem;
     min-width: 70rem;
 }
@@ -84,7 +83,6 @@ p {
 }
 
 button {
-    /*margin: 10px;*/
     background-color: #f7f7f7;  
 }
 
@@ -96,14 +94,23 @@ button {
     margin: 0.2rem;
 }
 
-.lapicito {
-    float: right;
-    margin-right: 1rem;
+.exptrabajo .educacion {
+    display: inline !important;
 }
 
-/*.content {
-    margin: 15px 0 0 20px;
-}*/
+.logos {
+    float: left;
+}
+
+.contenido {
+    margin-left: 10rem !important;
+}
+
+.lapicito {
+    float: right !important;
+    margin-right: 1rem;
+    align-self: flex-end !important;
+}
 
 footer {
     margin: 1rem;
